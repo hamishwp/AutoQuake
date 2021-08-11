@@ -1,0 +1,19 @@
+BEFORE YOU START USING THE CODE!!!
+
+In the Linux terminal run:
+
+sudo apt-get install libcurl4-openssl-dev libxml2-dev libjq-dev libprotobuf-dev libv8-dev protobuf-compiler openjdk-8-jdk libssh-dev libssl-dev libgdal-dev libudunits2-dev
+
+In the /etc/environment file add (using sudo nano <file_name>):
+
+#LD_LIBRARY_PATH=/usr/lib/jvm/jre/lib/amd64:/usr/lib/jvm/jre/lib/amd64/default
+LD_LIBRARY_PATH=/usr/lib/jvm/java-8-openjdk-amd64/lib/amd64/:/usr/lib/jvm/java-8-openjdk-amd64/lib/amd64/
+Then do:
+
+source /etc/environment
+
+Then in the Linux terminal run:
+
+sudo R CMD javareconf JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/bin/jar
+
+Then open Rstudio and run Main.R!
