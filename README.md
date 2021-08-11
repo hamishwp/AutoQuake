@@ -1,6 +1,6 @@
 # AutoQuake
 This tool automatically extracts important data relevant to a specific earthquake.
-The user provides the country, start date and end date of the earthquake, or only the USGS ID, and the tool will automatically extract the earthquake hazard shakemap from USGS, then overlap onto (SEDAC) population data and (Kummu) GDP data and generate spatial predictions of the displaced population using the IIDIPUS model. 
+The user provides the country, start date and end date of the earthquake, or only the USGS ID, and the tool will automatically extract the earthquake hazard shakemap from USGS, then overlap onto (SEDAC) population data and (Kummu) GDP data and generate spatial predictions of the displaced population using the IIDIPUS model. How to install the AutoQuake tool is explained in the file 'INSTALL_INSTRUCTIONS.txt'.
 # Files
 The most important file is 'Main.R', the only file the user really needs in order to generate a (modified) raster object of the earthquake. All that is required is that the 'input' variable be modified. A description of each file is given below:
 - Functions.R: Basic functions that are required to run some of the scripts, for example, converting a date ('2021-03-15') into a year (2021).
