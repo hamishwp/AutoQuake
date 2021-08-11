@@ -13,8 +13,8 @@ The most important file is 'Main.R', the only file the user really needs in orde
 - GetOSM.R: Extract information (e.g. buildings) data from OpenStreetMaps
 - GetPopDemo.R: Extract spatial population data (count & density), as well as age and gender demographic data from SEDAC. Note that the data has to already have been extracted from SEDAC, this is not automated through an API.
 - GetSocioEconomic.R: Extract spatial GDP (Kummu) data and automatically access country-specific income distributions from the World Inequality Database
-- **GetUSGS.R: Automated extraction of earthquake shakemap raster data from USGS
-- HAZARDobj.R: class structure for a hazard object, used to store each USGS earthquake**
+- **GetUSGS.R: Automated extraction of earthquake shakemap raster data from USGS**
+- HAZARDobj.R: class structure for a hazard object, used to store each USGS earthquake
 - INSTALL_INSTRUCTIONS.txt: All the current information required to be able to self-install AutoQuake onto a Linux server/computer
 - **Main.R: Simple script that unifies all files to allow the user to quickly & simply extract and form a (modified) raster object of a specific earthquake event**
 - Method.R: Purpose-built Markov Chain Monte Carlo (MCMC) algorithm used to optimise the IIDIPUS statistical model parameters.
